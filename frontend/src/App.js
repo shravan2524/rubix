@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Wishlist from './Components/Wishlistpage'
-import Home from './Components/home'
+
 
 
 export default function App(){
@@ -11,3 +10,24 @@ export default function App(){
     </div>
   );
 }
+import React from "react"
+import './App.css';
+
+import Header from "./Aniket/Header/Header";
+import Login from "./Aniket/Login/Login";
+import Profile from "./Aniket/Profile/Profle";
+import Homepage from "./Aniket/Homepage/Homepage";
+
+function App() {
+  return (
+    <React.Fragment>
+      {/* <Header /> */}
+    <Login />
+    {/* <Profile /> */}
+    {/* <Header />
+    <Homepage /> */}
+    </React.Fragment>
+  );
+}
+
+export default App;
