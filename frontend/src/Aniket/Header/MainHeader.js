@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Header.module.css';
+import styles from './MainHeader.module.css';
 
-const Header=()=>{
+const MainHeader=()=>{
     return(
         <React.Fragment>
         <header className={styles["main-header"]}>
@@ -23,4 +23,4 @@ const Header=()=>{
     );
 }
 
-export default Header;
+export default MainHeader;
