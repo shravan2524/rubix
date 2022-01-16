@@ -1,15 +1,3 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-
-
-export default function App(){
-  return (
-    <div className="Container">
-      
-    </div>
-  );
-}
 import React from "react"
 import './App.css';
 
@@ -17,15 +5,19 @@ import Header from "./Aniket/Header/Header";
 import Login from "./Aniket/Login/Login";
 import Profile from "./Aniket/Profile/Profle";
 import Homepage from "./Aniket/Homepage/Homepage";
+import Wishlist from "./Khyati/Wishlist/Wishlist";
+import Trips from './Khyati/Trips/Trips';
 
 function App() {
   return (
     <React.Fragment>
-      {/* <Header /> */}
-    <Login />
+      <Header />
+    {/* <Login /> */}
     {/* <Profile /> */}
     {/* <Header />
     <Homepage /> */}
+    {/* <Wishlist /> */}
+       <Trips/>
     </React.Fragment>
   );
 }

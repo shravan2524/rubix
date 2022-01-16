@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+	font-family: 'Loto', sans-serif;
+}
+
+.trips-main-section {
+	height: 100vh;
+	margin: 0 50px;
+	margin-top: 7rem;
+}
+
+.trips-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trips-hr {
+	margin-top: 0.5rem;
+}
+.trips-h1 {
+	font-family: lato;
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+.button-group{
+    background-color:#F1F1F1;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.trips-button-active{
+    background: #DE5BCE !important;
+    color: #fff !important;
+    font-size: 1.5rem;
+    padding: 0.6rem 1rem !important;
+    border-radius: 15px;
+    border: 10px;
+}
+.trips-button{
+    background: #F1F1F1 !important;
+    color: #000 !important;
+    font-size: 1.5rem;
+    padding: 0.6rem 1rem !important;
+    border-radius: 15px;
+    border: 10px;
+}
+
+.trips-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+}
+.trips-card {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+	border-radius: 10px;
+	gap: 50px;
+}
+
+.trips-card-image {
+	background-image: url('../../../public/MAHABALESHWAR.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    border: 1px solid #D7CCCC;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.trips-card-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.trips-card-content h1{
+    font-size: 1.7rem;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+.trips-card-content p{
+    font-size: 1.2rem;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+.trips-card-content span{
+    color: #928B8B;
+    
+
+}
