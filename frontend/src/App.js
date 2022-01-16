@@ -11,6 +11,7 @@ import Header from "./Aniket/Header/Header";
 import Login from "./Aniket/Login/Login";
 import Profile from "./Aniket/Profile/Profle";
 import Homepage from "./Aniket/Homepage/Homepage";
+import Mapsscreen from "./Mapsscreen";
 
 function App() {
   return (
@@ -21,7 +22,6 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/profile" element={<Profile />} />
-          {/* <Route exact path="/"></Route> */}
         </Routes>
       </Router>
     </React.Fragment>
