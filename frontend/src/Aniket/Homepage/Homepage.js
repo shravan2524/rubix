@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Homepage.module.css";
-
+import Mapsscreen from "../../Mapsscreen";
 const Homepage = () => {
   return (
     <React.Fragment>
@@ -14,13 +14,8 @@ const Homepage = () => {
         <h1>Our reccomendations</h1>
         <hr />
         <div className={styles["rec-content"]}>
-          <div className={styles["location-cards__container"]}>
-            <div className={styles["location-cards"]}>
-              <div className={styles["card-top"]}></div>
-              <div className={styles["card-bottom"]}>
-                <h4>MahaBaleshwar</h4>
-              </div>
-            </div>
+              <div>
+                <Mapsscreen />
           </div>
         </div>
       </section>
