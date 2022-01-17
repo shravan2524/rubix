@@ -25,17 +25,6 @@ function Trips() {
 							</p>
 						</div>
 					</div>
-					{/* <div className="trips-card">
-						<div className="trips-card-image"></div>
-						<div className="trips-card-content">
-							<h1>
-								Place:<span> Pune</span>
-							</h1>
-							<p>
-								Date:<span> 20-02-2022</span>
-							</p>
-						</div>
-					</div> */}
 				</div>
 			</section>
 		</React.Fragment>

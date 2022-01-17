@@ -31,9 +31,10 @@ function App() {
           {/* <Route exact path="/"></Route> 
         </Routes>
       </Router>*/}
-      <Chat />
+         
         </Routes>
-      </Router> 
+      </Router>
+       <Chat /> 
       {/* <Header /> */}
       {/* <Mapsscreen /> */}
     </React.Fragment>

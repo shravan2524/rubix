@@ -9,33 +9,12 @@ function Wishlist() {
 				<hr className="wishlist-hr" />
 				<div className='wishlist-container'>
 				<div className="wishlist-card">
-					<div className='heart'></div>
+					{/* <div className='heart'></div> */}
 					<div className="wishlist-card-image"></div>
 					<div className="wishlist-card-content">
 						<h1>lonavala</h1>
 					</div>
 				</div>
-				{/* <div className="wishlist-card">
-					<div className='heart'></div>
-					<div className="wishlist-card-image"></div>
-					<div className="wishlist-card-content">
-						<h1>Pune</h1>
-					</div>
-				</div>
-				<div className="wishlist-card">
-					<div className='heart'></div>
-					<div className="wishlist-card-image"></div>
-					<div className="wishlist-card-content">
-						<h1>Pune</h1>
-					</div>
-				</div>
-				<div className="wishlist-card">
-					<div className='heart'></div>
-					<div className="wishlist-card-image"></div>
-					<div className="wishlist-card-content">
-						<h1>Pune</h1>
-					</div>
-				</div> */}
 				</div>
 			</section>
 		</React.Fragment>
